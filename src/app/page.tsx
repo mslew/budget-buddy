@@ -1,6 +1,6 @@
 "use client";
 
-import app from "@/firebase";
+//import app from "@/firebase";
 import { db } from "@/firebase";
 import { doc, setDoc } from "firebase/firestore";
 
