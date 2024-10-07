@@ -13,6 +13,6 @@ export default function Home() {
     });
   }
   return (
-    <><button className="border border-red-400 p-3 ml-3 mt-3" onClick={sendData}>Click Me!</button></>
+    <><button className="border border-red-400 p-3 ml-3 mt-3 font-bold" onClick={sendData}>Click Me!</button></>
   );
 }
