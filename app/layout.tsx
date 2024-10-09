@@ -23,8 +23,10 @@ export default function RootLayout({
       <body
         className={inter.className}
       >
-        <Nav />
-        {children}
+        <div className="h-screen w-screen overflow-hidden">
+          <Nav />
+          {children}
+        </div>
       </body>
     </html>
   );
