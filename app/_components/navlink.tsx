@@ -5,6 +5,6 @@ interface Props {
 
 export default function NavLink({href, text}: Props){
     return(
-        <a className="border p-2 rounded-lg" href={href}>{text}</a>
+        <a className="p-2 rounded-lg hover:bg-gray-500 hover:text-orange-200" href={href}>{text}</a>
     )
 }
