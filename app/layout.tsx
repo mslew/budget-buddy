@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Nav from "./_components/nav";
+import Footer from "./_components/footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -26,6 +27,7 @@ export default function RootLayout({
         <div className="h-screen w-screen overflow-hidden">
           <Nav />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
