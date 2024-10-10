@@ -6,7 +6,13 @@ export default function Hero(){
                     <p>Welcome to Budget Buddy!</p>
                     <p>The best place for you to create a budget!</p>
                 </div>
-                <button className="p-4 border text-white rounded-3xl w-min whitespace-nowrap text-4xl bg-slate-500">Create a Budget!</button>
+                <a className="flex flex-row gap-4 items-center p-4 border text-white rounded-3xl w-min whitespace-nowrap text-4xl bg-slate-500 group">
+                    Create a Budget
+                    <svg className="stroke -mr-1 ml-2 mt-0.5 h-10 stroke-current stroke-1" fill="none" viewBox="0 0 10 10" aria-hidden="true"> 
+                        <path className="opacity-0 transition group-hover:opacity-100" d="M0 5h7"></path> 
+                        <path className="transition group-hover:translate-x-[2px]" d="M1 1l4 4-4 4"></path> 
+                    </svg>
+                </a>
             </div>
         </div>
     )
